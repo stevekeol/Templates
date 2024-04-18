@@ -32,8 +32,10 @@ The project is organized into several crates:
 
 1. Clone the repository.
 2. Install the Rust toolchain if you haven't already.
-3. Run `cargo build` to build the project.
-4. Run `cargo run` to start the server.
+3. Run `make build` to build the project.
+4. Run `make run` to start the server.
+
+> You can switch the `CARGO_ENV` between `development` and `production` in `.env` file. They run in different port and database.
 
 You can install cargo-watch to automatically recompile the project when changes are made:
 
