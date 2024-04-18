@@ -1,0 +1,4 @@
+[placeholders]
+project_name = { prompt = "Enter project name", default = "my_project", type = "string" }
+# use_git = { prompt = "Initialize Git repository?", choices = ["Yes", "No"], default = "Yes", type = "boolean" }
+# phone_number = { prompt = "What's your phone number?", type = "string", regex = "^[0-9]+$" }

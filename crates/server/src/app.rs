@@ -40,7 +40,7 @@ impl ApplicationServer {
         let services = Services::new(db);
         let router = AppRouter::new(services);
 
-        info!("🟢 server has launched on {local_addr} 🚀");
+        info!("🟢 server:{{project-name}} has launched on {local_addr} 🚀");
         
         serve(tcp_listener, router)
             .with_graceful_shutdown(Self::shutdown_signal())

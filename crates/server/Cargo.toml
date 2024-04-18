@@ -5,7 +5,7 @@ edition = "2021"
 metadata.workspace = true
 
 [[bin]]
-name = "topo" # placeholder
+name = "{{project-name}}" # placeholder
 path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
