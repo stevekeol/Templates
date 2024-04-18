@@ -29,7 +29,7 @@ for ((i = 0; i < ${#docker_compose_components[*]}; i++)); do
     let component_server_count+=1
   else
     echo -e "❌ ${RED_PREFIX} ${docker_compose_components[$i]} NOT up!${COLOR_SUFFIX}"
-    echo -e "🏗️ ${YELLOW_PREFIX}try ${docker_compose_components[$i]} to Up!${COLOR_SUFFIX}"
+    echo -e "🏗️ ${YELLOW_PREFIX}Attempt to start the ${docker_compose_components[$i]} container...${COLOR_SUFFIX}"
     sudo docker-compose start -d mongodb; # replace up(会先构建（如果需要）然后启动服务) -> start(直接启动已经构建好的服务容器)
   fi
 done
