@@ -1,4 +1,4 @@
 # configuration for https://cargo-generate.github.io/cargo-generate/
 
 [template]
-sub_templates = ["Rust-Backend", "Go-Backend-Clean-Arch", "Typescript-Frontend-Web3"]
+sub_templates = ["Rust-Backend", "Go-Backend-Clean-Arch", "Typescript-Frontend-Web3-Hook", "Typescript-Frontend-Web3-Redux"]
