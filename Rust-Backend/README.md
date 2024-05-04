@@ -45,6 +45,12 @@ cargo install cargo-watch
 
 Then run `cargo watch -x run` to start the server.
 
+## API Test
+
+```sh
+make api-test
+```
+
 ## Contributing
 
 Contributions are welcome!
